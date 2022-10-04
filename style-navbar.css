@@ -1,0 +1,12 @@
+@media screen and (min-width: 992px){
+    .responsive-navbar{
+        width: 50%;
+        max-width: 744px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .responsive-navbar{
+        width: 75%;
+    }
+}

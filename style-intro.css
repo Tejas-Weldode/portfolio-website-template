@@ -1,0 +1,24 @@
+@media screen and (min-width: 992px){
+    .responsive{
+        width: 50%;
+        max-width: 744px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .responsive{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .responsive{
+        flex-direction: column;
+    }
+    .dp-container{
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
